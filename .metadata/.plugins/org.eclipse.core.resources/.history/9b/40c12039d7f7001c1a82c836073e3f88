@@ -1,0 +1,47 @@
+package net.javaguides.hibernate;
+
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.List;
+
+import javax.transaction.Transaction;
+
+import org.hibernate.Session;
+
+import net.javaguides.hibernate.dao.StudentDao;
+import net.javaguides.hibernate.entity.SimpleEntity;
+import net.javaguides.hibernate.entity.Student;
+import net.javaguides.hibernate.util.HibernateUtil;
+
+public class App {
+	public static void main(String[] args) {
+		StudentDao studentDao = new StudentDao();
+		Student student = new Student("Ramesh", "Fadatare", "rameshfadatare@javaguides.com");
+		studentDao.saveStudent(student);
+		
+		List<Student> students = studentDao.getStudents();
+		students.forEach(s -> System.out.println(s.getFirstName()));
+		
+
+		SimpleEntity simpleEntity = new SimpleEntity();
+		simpleEntity.setDate(LocalDate.now());
+		simpleEntity.setDateTime(LocalDateTime.now());
+		simpleEntity.setDuration(Duration.ofDays(2));
+				
+		Transaction transaction = null;
+		try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+			// start a transaction
+			transaction = session.beginTransaction();
+			// save the student object
+			session.save(simpleEntity);
+			// commit transaction
+			transaction.commit();
+		} catch (Exception e) {
+			if (transaction != null) {
+				transaction.rollback();
+			}
+			e.printStackTrace();
+		}
+	}
+}

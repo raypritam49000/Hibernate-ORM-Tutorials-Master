@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\MyAllPorgrams\Java Framework\Hibernate-ORM-Tutorials-master\Hibernate-Dbcp-Pooling-Example"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.demo.Hibernate_Load_Entity_example"/>
+			<item value="com.demo.Hibernate_Jpa_Example"/>
+			<item value="com.demo.Hibernate_Inheritance_TablePerClass"/>
+			<item value="com.demo.Hibernate_Inheritance_Singletable"/>
+			<item value="com.demo.Hibernate_Hsqldb_Example"/>
+			<item value="com.demo.Hibernate_HQL_Crud_Example"/>
+			<item value="com.demo.Hibernate_Helloworld_Example"/>
+			<item value="com.demo.Hibernate_Get_Entity_Example"/>
+			<item value="com.demo.Hibernate_Enum_Type_Example"/>
+			<item value="com.demo.Hibernate_Embeddable_Example"/>
+			<item value="com.demo.Hibernate_Derby_Example"/>
+		</list>
+		<list key="groupId">
+			<item value="com.demo"/>
+		</list>
+		<list key="artifactId">
+			<item value="Hibernate-Load-Entity-example"/>
+			<item value="Hibernate-Jpa-Example"/>
+			<item value="Hibernate-Inheritance-TablePerClass"/>
+			<item value="Hibernate-Inheritance-Singletable"/>
+			<item value="Hibernate-Hsqldb-Example"/>
+			<item value="Hibernate-HQL-Crud-Example"/>
+			<item value="Hibernate-Helloworld-Example"/>
+			<item value="Hibernate-Get-Entity-Example"/>
+			<item value="Hibernate-Enum-Type-Example"/>
+			<item value="Hibernate-Embeddable-Example"/>
+			<item value="Hibernate-Derby-Example"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

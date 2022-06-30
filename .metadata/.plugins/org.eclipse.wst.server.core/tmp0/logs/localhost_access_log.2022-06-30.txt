@@ -1,0 +1,15 @@
+127.0.0.1 - - [30/Jun/2022:10:35:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:35:13 +0530] "GET /jsp-servlet-hibernate-crud-todo-app/ HTTP/1.1" 500 256
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:35:13 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [30/Jun/2022:10:43:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:43:39 +0530] "GET /jsp-servlet-hibernate-crud-todo-app/ HTTP/1.1" 200 1711
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:43:42 +0530] "GET /jsp-servlet-hibernate-crud-todo-app/new HTTP/1.1" 200 2243
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:44:12 +0530] "POST /jsp-servlet-hibernate-crud-todo-app/insert HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:44:12 +0530] "GET /jsp-servlet-hibernate-crud-todo-app/list HTTP/1.1" 200 2132
+127.0.0.1 - - [30/Jun/2022:10:53:16 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:53:17 +0530] "GET /login-jsp-servlet-hibernate-mysql-example/ HTTP/1.1" 404 797
+127.0.0.1 - - [30/Jun/2022:10:54:20 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:54:20 +0530] "GET /login-jsp-servlet-hibernate-mysql-example/ HTTP/1.1" 404 797
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:55:05 +0530] "GET /login-jsp-servlet-hibernate-mysql-example/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:55:06 +0530] "GET /login-jsp-servlet-hibernate-mysql-example/login.jsp HTTP/1.1" 200 991
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:55:25 +0530] "POST /login-jsp-servlet-hibernate-mysql-example/login HTTP/1.1" 200 -
